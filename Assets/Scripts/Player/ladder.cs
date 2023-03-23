@@ -9,7 +9,7 @@ public class ladder : MonoBehaviour
     /* Référence à la plate forme en haut de l'échelle */
     public BoxCollider2D topCollider;
 
-    public Text interactUI;
+    private Text interactUI;
     
 
     void Awake()

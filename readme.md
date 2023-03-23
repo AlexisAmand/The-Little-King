@@ -1,4 +1,4 @@
-# Game 2D
+# The Little King
 
 ### Le projet
 
@@ -23,3 +23,11 @@ Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sab
 ### Téléchargement
 
 C'est par là : https://alexisamand.itch.io/the-little-king
+
+### Outils utilisés
+
+- Pixel Studio 4.55
+- Photoshop 2023
+- Unity 2020.3
+- Visual Studio 17.5.2
+- Visual Studio Code 1.76.2

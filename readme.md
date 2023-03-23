@@ -4,25 +4,26 @@
 
 Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sable où je fais tout un tas de tests au fur et à mesure de ma découverte d'Unity. C'est un petit jeu de plate-formes classique, avec juste des pièces à ramasser en évitant les pièges et les monstres. Quand toutes les pièces du niveau ont été ramassées (et uniquement à ce moment-là) la porte s'ouvre et l'accès au niveau suivant est possible. Pour le moment, seul le premier niveau est disponible, les niveaux 2 et 3 sont en cours de réalisation.
 
-![https://boitasite.com//images/captures/capture-01.jpg](https://boitasite.com//images/captures/capture-01.jpg)
+![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-01.jpg)
 
-![https://boitasite.com//images/captures/capture-02.jpg](https://boitasite.com//images/captures/capture-02.jpg)
+![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-02.jpg)
 
-![https://boitasite.com//images/captures/capture-03.jpg](https://boitasite.com//images/captures/capture-03.jpg)
+![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-03.jpg)
 
 ### Commandes
 
 - E : interagir
-- H : s'infliger des dégâts
+- H : s'infliger des dégâts (lol)
 - espace : sauter
-- fleche gauche : aller vers la gauche
-- fleche droite : aller vers la droite
-- fleche haut : aller vers le haut sur une échelle
-- fleche bas : aller vers le bas sur une échelle
+- flèche gauche : aller vers la gauche
+- flèche droite : aller vers la droite
+- flèche haut : aller vers le haut sur une échelle
+- flèche bas : aller vers le bas sur une échelle
 
 ### Téléchargement
 
-C'est par là : https://alexisamand.itch.io/the-little-king
+C'est par là (mais je ne pense jamais en envoyer les nouvelles builds) : 
+https://alexisamand.itch.io/the-little-king
 
 ### Outils utilisés
 

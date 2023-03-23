@@ -1,0 +1,21 @@
+{"ActiveWorkflow" : "FolderWorkflow", "FolderWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : [], 
+"dependencies" : false, 
+"dependenciesNames" : []
+}, "UnitypackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}, "HybridPackageWorkflow" : {
+"mainPath" : {
+"path" : "", 
+"guid" : ""
+}, 
+"extraPaths" : []
+}}

@@ -29,5 +29,5 @@ C'est par là : https://alexisamand.itch.io/the-little-king
 - Pixel Studio 4.55
 - Photoshop 2023
 - Unity 2020.3
-- Visual Studio 17.5.2
+- Visual Studio 17.5.3
 - Visual Studio Code 1.76.2

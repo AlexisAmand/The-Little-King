@@ -73,7 +73,7 @@
     <Compile Include="Assets\star.cs" />
     <Compile Include="Assets\Scripts\Dangers\Feu.cs" />
     <Compile Include="Assets\Scripts\Dangers\picdegats.cs" />
-    <Compile Include="Assets\LevelSelector.cs" />
+    <Compile Include="Assets\Scripts\UI\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\ladder.cs" />
     <Compile Include="Assets\Scripts\Dangers\DeathZone.cs" />

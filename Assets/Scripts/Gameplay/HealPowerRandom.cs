@@ -7,6 +7,11 @@ public class HealPowerRandom : MonoBehaviour
 
     private int healthpoint;
 
+    /* son pour la vie en + */
+    public AudioClip pickupSoundGood;
+    /* son pour la vie en - */
+    public AudioClip pickupSoundBad;
+
     private void Start()
     {
         /* génération d'un nombre entre -33 et 33 pour une quantité de points de vie aléatoire */
@@ -24,6 +29,8 @@ public class HealPowerRandom : MonoBehaviour
                 // mettre à jour de dessin
                 Destroy(gameObject);
                 Debug.LogWarning("Le joueur a perdu " + healthpoint + " points de vie");
+                // on joue le son
+                AudioManager.Instance.PlayClipAt(pickupSoundBad, transform.position);
             }
             else
             {
@@ -34,6 +41,8 @@ public class HealPowerRandom : MonoBehaviour
                     // mettre à jour de dessin
                     Destroy(gameObject);
                     Debug.LogWarning("Le joueur a répupéré " + healthpoint + " points de vie");
+                    // on joue le son
+                    AudioManager.Instance.PlayClipAt(pickupSoundGood, transform.position);
                 }
             }
         }

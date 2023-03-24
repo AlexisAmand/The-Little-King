@@ -62,7 +62,7 @@
     <Compile Include="Assets\Scripts\Dangers\bridge.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\PickUpObject.cs" />
-    <Compile Include="Assets\wall.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\wall.cs" />
     <Compile Include="Assets\Scripts\Gameplay\pickUpKeys.cs" />
     <Compile Include="Assets\Scripts\Game\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\Game\CurrentSceneManager.cs" />
@@ -70,7 +70,7 @@
     <Compile Include="Assets\Scripts\Dangers\webdegat.cs" />
     <Compile Include="Assets\Scripts\Game\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealPowerUp.cs" />
-    <Compile Include="Assets\star.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\star.cs" />
     <Compile Include="Assets\Scripts\Dangers\Feu.cs" />
     <Compile Include="Assets\Scripts\Dangers\picdegats.cs" />
     <Compile Include="Assets\Scripts\UI\LevelSelector.cs" />
@@ -78,14 +78,14 @@
     <Compile Include="Assets\Scripts\Player\ladder.cs" />
     <Compile Include="Assets\Scripts\Dangers\DeathZone.cs" />
     <Compile Include="Assets\Scripts\Dangers\EnnemyPatrol.cs" />
-    <Compile Include="Assets\Script\MeteoRandom.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\MeteoRandom.cs" />
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Game\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSpawn.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Game\MovingPlatform.cs" />
-    <Compile Include="Assets\door.cs" />
+    <Compile Include="Assets\Scripts\Player\door.cs" />
     <Compile Include="Assets\Scripts\Dangers\WeakSpot.cs" />
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealPowerRandom.cs" />

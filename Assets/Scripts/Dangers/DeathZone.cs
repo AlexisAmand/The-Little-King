@@ -6,7 +6,8 @@ public class DeathZone : MonoBehaviour
 {
 
     private Transform playerSpawn;
-    private Animator fadeSystem; 
+    private Animator fadeSystem;
+    public AudioClip deathSound;
 
     private void Awake()
     {
@@ -24,6 +25,7 @@ public class DeathZone : MonoBehaviour
 
     public IEnumerator ReplacePlayer(Collider2D collision)
     {
+        AudioManager.Instance.PlayClipAt(deathSound, transform.position);
         fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
         collision.transform.position = playerSpawn.position; 

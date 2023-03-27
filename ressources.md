@@ -47,3 +47,6 @@ https://legends-games.itch.io/pixel-penguin-32x32-asset-pack
 
 Chest Creak (son ouverture d'un coffre) :
 https://opengameart.org/content/open-chest
+
+VG Death Sound
+https://opengameart.org/content/8bit-death-whirl

@@ -120,7 +120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 7298854059563499004}
   coinsToAdd: 15
-  soundToPlay: {fileID: 8300000, guid: 1d4eba87634a8a446b02ebfa5a7a9912, type: 3}
+  soundToPlay1: {fileID: 8300000, guid: 6b1a2e45ce2e1024b9447d376fd7df47, type: 3}
+  soundToPlay2: {fileID: 8300000, guid: 1d4eba87634a8a446b02ebfa5a7a9912, type: 3}
 --- !u!61 &7298854059563499002
 BoxCollider2D:
   m_ObjectHideFlags: 0

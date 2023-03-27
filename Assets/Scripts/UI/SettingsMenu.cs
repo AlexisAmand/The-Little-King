@@ -60,6 +60,7 @@ public class SettingsMenu : MonoBehaviour
     public void SetVolume(float volume)
     {
         audioMixer.SetFloat("Music", volume);
+        Debug.Log(volume);
     }
 
     public void SetSoundVolume(float volume)
@@ -92,4 +93,5 @@ public class SettingsMenu : MonoBehaviour
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
+    
 }

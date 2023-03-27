@@ -12,7 +12,7 @@ public class door : MonoBehaviour
     void Start()
     {
         doorUICanvas.enabled = false;
-        playerInRange = false;
+       // playerInRange = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -30,7 +30,7 @@ public class door : MonoBehaviour
             {
                 // Player does not have enough keys, show UI
                 doorUICanvas.enabled = true;
-                playerInRange = true;
+               // playerInRange = true;
             }
         }
 
@@ -42,7 +42,7 @@ public class door : MonoBehaviour
         {
             // Player is no longer in range, hide UI
             doorUICanvas.enabled = false;
-            playerInRange = false;
+           // playerInRange = false;
         }
     }
 

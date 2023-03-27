@@ -38,3 +38,12 @@ https://opengameart.org/content/8-bit-sound-effects-library
 
 Healthbar by Brackeys :
 https://www.youtube.com/c/Brackeys
+
+Divers effets 8 bits :
+https://opengameart.org/content/8bit-sfx
+
+Sprite du Pingouin :
+https://legends-games.itch.io/pixel-penguin-32x32-asset-pack
+
+Chest Creak (son ouverture d'un coffre) :
+https://opengameart.org/content/open-chest

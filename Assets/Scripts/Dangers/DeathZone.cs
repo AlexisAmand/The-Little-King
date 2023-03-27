@@ -6,7 +6,7 @@ public class DeathZone : MonoBehaviour
 {
 
     private Transform playerSpawn;
-    public Animator fadeSystem; 
+    private Animator fadeSystem; 
 
     private void Awake()
     {

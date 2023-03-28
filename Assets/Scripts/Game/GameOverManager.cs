@@ -23,12 +23,7 @@ public class GameOverManager : MonoBehaviour
     /* A la mort du joueur, on affiche le menu */
     public void OnPlayerDeath()
     {
-        if(CurrentSceneManager.Instance.isPlayerPresentByDefault)
-        {
-            DontDestroyOnLoadScene.Instance.RemoveFromDontDestroyOnLoad();
-        }
         gameOverUI.SetActive(true);
-
     }
 
     // recommencer le niveau
@@ -46,8 +41,6 @@ public class GameOverManager : MonoBehaviour
     // retour au menu principal
     public void MainMenuButton()
     {
-        /* Démarque les éléments comme étant à garder d'une scène à l'autre */
-        DontDestroyOnLoadScene.Instance.RemoveFromDontDestroyOnLoad();
         /* Charge le Main Menu */
         SceneManager.LoadScene("MainMenu");
     }

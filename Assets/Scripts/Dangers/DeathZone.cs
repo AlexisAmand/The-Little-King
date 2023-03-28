@@ -11,7 +11,6 @@ public class DeathZone : MonoBehaviour
 
     private void Awake()
     {
-        playerSpawn = GameObject.FindGameObjectWithTag("PlayerSpawn").transform;
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
     }
 
@@ -28,7 +27,7 @@ public class DeathZone : MonoBehaviour
         AudioManager.Instance.PlayClipAt(deathSound, transform.position);
         fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
-        collision.transform.position = playerSpawn.position; 
+        collision.transform.position = CurrentSceneManager.Instance.respawnPoint; 
     }
 
 }

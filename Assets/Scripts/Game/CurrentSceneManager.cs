@@ -2,9 +2,12 @@ using UnityEngine;
 
 public class CurrentSceneManager : MonoBehaviour
 {
-    public bool isPlayerPresentByDefault = false;
+    // public bool isPlayerPresentByDefault = false;
     public int coinsPickedUpInThisSceneCount;
     public int keysPickedUpInThisSceneCount;
+
+    /* pour stocker la position du point de réaparition */
+    public Vector3 respawnPoint;
 
     public static CurrentSceneManager Instance;
 
@@ -17,5 +20,10 @@ public class CurrentSceneManager : MonoBehaviour
         }
 
         Instance = this;
+
+        /* le point de respawn par défaut est l'endroit où le joueur commence */
+
+        respawnPoint = GameObject.FindGameObjectWithTag("Player").transform.position;
+
     }
 }

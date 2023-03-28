@@ -2,7 +2,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using System.Collections;
 
-public class Chess : MonoBehaviour
+public class Chest : MonoBehaviour
 {
     // va contenir le texte du canvas
     private Text interactUI;

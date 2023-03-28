@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Game\DontDestroyOnLoadScene.cs" />
     <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
+    <Compile Include="Assets\magicbox.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />

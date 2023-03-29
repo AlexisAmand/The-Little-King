@@ -653,10 +653,12 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/LevelTestDoor.unity:
+    Assets/Scenes/LevelTest.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
@@ -676,7 +678,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 66
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
     - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
@@ -689,19 +697,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 766}
     - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
       Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
     - Class: 114
       Script: {instanceID: 1606}
     - Class: 114
       Script: {instanceID: 1608}
     - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1614}
+    - Class: 114
+      Script: {instanceID: 1616}
+    - Class: 114
+      Script: {instanceID: 1912}
+    - Class: 114
+      Script: {instanceID: 2022}
+    - Class: 114
       Script: {instanceID: 2068}
     - Class: 114
       Script: {instanceID: 2352}
     - Class: 114
+      Script: {instanceID: 2644}
+    - Class: 114
       Script: {instanceID: 3050}
     - Class: 114
+      Script: {instanceID: 3148}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
       Script: {instanceID: 3764}
+    - Class: 114
+      Script: {instanceID: 3810}
     - Class: 114
       Script: {instanceID: 4136}
     - Class: 114
@@ -709,11 +741,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4962}
     - Class: 114
+      Script: {instanceID: 4992}
+    - Class: 114
+      Script: {instanceID: 5072}
+    - Class: 114
+      Script: {instanceID: 5302}
+    - Class: 114
+      Script: {instanceID: 5566}
+    - Class: 114
+      Script: {instanceID: 5890}
+    - Class: 114
       Script: {instanceID: 5902}
+    - Class: 114
+      Script: {instanceID: 6108}
+    - Class: 114
+      Script: {instanceID: 6116}
     - Class: 114
       Script: {instanceID: 6250}
     - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
       Script: {instanceID: 6824}
+    - Class: 114
+      Script: {instanceID: 7448}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -731,6 +781,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -1460,7 +1516,7 @@ ScriptsOnlyBuild:
     className: LevelSelector
   - hash:
       serializedVersion: 2
-      Hash: ed1f5f6d9098fd8656b80442156057e0
+      Hash: 060ca5b191e2011a66cd739ec6a80a39
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -1998,7 +2054,7 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level01.unity
   - Assets/Scenes/Level02.unity
   - Assets/Scenes/LevelEmpty.unity
-  - Assets/Scenes/LevelTestDoor.unity
+  - Assets/Scenes/LevelTest.unity
   - Assets/Scenes/Credits.unity
   - Assets/Scenes/Help.unity
   - Assets/Scenes/LevelSelect.unity

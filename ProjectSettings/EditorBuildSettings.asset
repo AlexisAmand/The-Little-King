@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelEmpty.unity
     guid: f64e3c0bac3025749a47fed89275332c
   - enabled: 1
-    path: Assets/Scenes/LevelTestDoor.unity
+    path: Assets/Scenes/LevelTest.unity
     guid: 14add0536f7be39459d522c624f6c82a
   - enabled: 1
     path: Assets/Scenes/Credits.unity

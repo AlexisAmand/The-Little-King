@@ -12,7 +12,7 @@ Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sab
 
 ### Commandes
 
-- E : interagir
+- E : interagir (échelles, coffres, etc.)
 - H : s'infliger des dégâts (lol)
 - espace : sauter
 - flèche gauche : aller vers la gauche
@@ -22,8 +22,10 @@ Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sab
 
 ### Téléchargement
 
-C'est par là (mais je ne pense jamais en envoyer les nouvelles builds) : 
+Normalement, c'est par là, mais je ne pense jamais en envoyer les nouvelles builds : 
 https://alexisamand.itch.io/the-little-king
+
+Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez tout son contenu si vous avez envie de tester.
 
 ### Outils utilisés
 
@@ -36,3 +38,4 @@ https://alexisamand.itch.io/the-little-king
 ### Remerciements
 
 - Zef pour ses tutos : https://www.youtube.com/@TUTOUNITYFR
+- Brackeys pour ses tutos : https://www.youtube.com/@Brackeys

@@ -5,7 +5,7 @@ public class DeathZone : MonoBehaviour
 
 {
 
-    private Transform playerSpawn;
+    // private Transform playerSpawn;
     private Animator fadeSystem;
     public AudioClip deathSound;
 

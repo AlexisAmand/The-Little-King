@@ -29,6 +29,8 @@ public class GameOverManager : MonoBehaviour
     // recommencer le niveau
     public void RetryButton()
     {
+        Debug.Log("On essaie de réessayer");
+
         Inventory.Instance.RemoveCoins(CurrentSceneManager.Instance.coinsPickedUpInThisSceneCount);
         // Recharge la scène
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

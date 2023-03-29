@@ -12,6 +12,7 @@ public class MainMenu : MonoBehaviour
     public GameObject introWindow; 
     public GameObject exitConfirmWindow;
     public GameObject helpWindows;
+    public GameObject keysWindow;
 
     // cette fonction lance le jeu quand on appuye sur le bouton jouer de la popup intro
     public void StartGame()
@@ -38,6 +39,7 @@ public class MainMenu : MonoBehaviour
         settingsWindow.SetActive(false);
         introWindow.SetActive(false);
         helpWindows.SetActive(false);
+        keysWindow.SetActive(false);
     }
 
     // cette fonction ouvre la scene qui contient les crédits
@@ -66,15 +68,20 @@ public class MainMenu : MonoBehaviour
         exitConfirmWindow.SetActive(false);
     }
 
-    // Affichage de l'aide
+    // Affichage de l'aide du jeu
     public void LoadHelpScene()
     {
         // SceneManager.LoadScene("Help");
         helpWindows.SetActive(true);
     }
 
-    // Retour sur le menu principal
-    public void LoadMainMenu()
+    public void LoadKeysScene()
+    {
+        keysWindow.SetActive(true);
+    }
+
+// Retour sur le menu principal
+public void LoadMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }

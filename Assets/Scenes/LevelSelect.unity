@@ -305,6 +305,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 767671901}
+    - target: {fileID: 4677963975862591083, guid: 0a579423fc34f9e42a0d9b2ded076689, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level02
+      objectReference: {fileID: 0}
     - target: {fileID: 6641947813722287262, guid: 0a579423fc34f9e42a0d9b2ded076689, type: 3}
       propertyPath: m_Name
       value: LevelButton (2)
@@ -1387,11 +1391,11 @@ RectTransform:
   m_Father: {fileID: 1872783316}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 883, y: 474}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -20, y: -20}
   m_SizeDelta: {x: 250, y: 60}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &2026198223
 MonoBehaviour:
   m_ObjectHideFlags: 0

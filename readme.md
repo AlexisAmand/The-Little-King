@@ -2,7 +2,11 @@
 
 ### Le projet
 
-Ce petit jeu  n'a pas vraiment de scénario, c'est juste une sorte de bac à sable où je fais tout un tas de tests au fur et à mesure de ma découverte d'Unity. C'est un petit jeu de plate-formes classique, avec juste des pièces à ramasser en évitant les pièges et les monstres. Quand toutes les pièces du niveau ont été ramassées (et uniquement à ce moment-là) la porte s'ouvre et l'accès au niveau suivant est possible. Pour le moment, seul le premier niveau est disponible, les niveaux 2 et 3 sont en cours de réalisation.
+Ce petit jeu n'a pas vraiment de scénario, c'est juste une sorte de bac à sable où je fais tout un tas de tests au fur et à mesure de ma découverte d'Unity. 
+
+Il s'agit d'un petit jeu de plates-formes classique, avec juste des pièces à ramasser en évitant les pièges et les monstres. Quand un nombre pièce donné a été ramassé, et uniquement à ce moment-là, une porte s'ouvre et l'accès au niveau suivant est possible. 
+
+Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont partiellement jouables.
 
 ![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-01.jpg)
 
@@ -31,6 +35,7 @@ Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez 
 
 - Pixel Studio 4.55
 - Photoshop 2023
+- Gimp 2.10
 - Unity 2020.3
 - Visual Studio 17.5.3
 - Visual Studio Code 1.76.2

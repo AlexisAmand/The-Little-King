@@ -17,7 +17,7 @@ Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont parti
 ### Commandes
 
 - E : interagir (échelles, coffres, etc.)
-- H : s'infliger des dégâts (lol)
+- H : s'infliger des dégâts (60 poins de vie sur les 100 disponibles)
 - espace : sauter
 - flèche gauche : aller vers la gauche
 - flèche droite : aller vers la droite
@@ -35,10 +35,10 @@ Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez 
 
 - Pixel Studio 4.55
 - Photoshop 2023
-- Gimp 2.10
-- Unity 2020.3
+- Gimp 2.10.34
+- Unity 2020.3.46f1
 - Visual Studio 17.5.3
-- Visual Studio Code 1.76.2
+- Visual Studio Code 1.77
 
 ### Remerciements
 

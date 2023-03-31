@@ -1,7 +1,43 @@
 fileFormatVersion: 2
-guid: 9ba7c0dd7ab44c449b8510085e010355
+guid: c3135f605c5fbb0478b4e054d46d8143
 TextureImporter:
   internalIDToNameTable:
+  - first:
+      213: 8742716253007301590
+    second: plant-ladder [conflicted]_0
+  - first:
+      213: 8761306861599875472
+    second: plant-ladder [conflicted]_1
+  - first:
+      213: 7022514125427853814
+    second: plant-ladder [conflicted]_2
+  - first:
+      213: -4472129564685511732
+    second: plant-ladder [conflicted]_3
+  - first:
+      213: -3939125730087578120
+    second: plant-ladder [conflicted]_4
+  - first:
+      213: 8323604387592786045
+    second: plant-ladder [conflicted]_5
+  - first:
+      213: 8340361240401475637
+    second: plant-ladder [conflicted]_6
+  - first:
+      213: 42318115326064153
+    second: plant-ladder [conflicted]_7
+  - first:
+      213: -1174624183349672822
+    second: plant-ladder [conflicted]_8
+  - first:
+      213: 180860748657067329
+    second: plant-ladder [conflicted]_9
+  - first:
+      213: -1467391321334005963
+    second: plant-ladder [conflicted]_10
+  - first:
+      213: 261525003643225507
+    second: plant-ladder [conflicted]_11
   - first:
       213: 4344970833605528788
     second: plant-ladder_0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: plant-ladder_4
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: -941605836885125652, guid: 9ba7c0dd7ab44c449b8510085e010355, type: 3}
+  m_Sprite: {fileID: -941605836885125652, guid: c3135f605c5fbb0478b4e054d46d8143, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

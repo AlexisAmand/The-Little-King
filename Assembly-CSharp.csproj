@@ -83,17 +83,18 @@
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Game\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Dangers\pinguKill.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Game\MovingPlatform.cs" />
     <Compile Include="Assets\Scripts\Player\door.cs" />
     <Compile Include="Assets\Scripts\Dangers\WeakSpot.cs" />
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\Dangers\PoursuivreJoueur.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealPowerRandom.cs" />
     <Compile Include="Assets\Scripts\Game\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
-    <Compile Include="Assets\Scripts\Dangers\PoursuivreJoueur.cs" />
-    <Compile Include="Assets\Scripts\Dangers\pinguKill.cs" />
+    <Compile Include="Assets\Parallax.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />

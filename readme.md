@@ -10,6 +10,8 @@ Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont parti
 
 ![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-01.jpg)
 
+![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-04.jpg)
+
 ![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-02.jpg)
 
 ![capture d'écran du jeu "The Little King"](https://boitasite.com//images/captures/capture-03.jpg)

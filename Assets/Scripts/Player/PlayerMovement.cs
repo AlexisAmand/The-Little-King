@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -70,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, collisionLayers);
 
         /* on bouge le perso ! */
-        MovePlayer(horizontalMovement, verticalMovement);     
+        MovePlayer(horizontalMovement, verticalMovement);
 
     }
 

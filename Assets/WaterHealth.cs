@@ -17,7 +17,7 @@ public class WaterHealth : MonoBehaviour
     public static WaterHealth Instance;
 
     /* son pour les dégats */
-    public AudioClip hitSound;
+    // public AudioClip hitSound;
 
     private void Awake()
     {
@@ -42,7 +42,7 @@ public class WaterHealth : MonoBehaviour
         /* Si le perso n'est pas invinsible, il subit des dégats */
 
       
-            AudioManager.Instance.PlayClipAt(hitSound, transform.position);
+            // AudioManager.Instance.PlayClipAt(hitSound, transform.position);
 
             currentOxygen -= damage; /* nouvelle valeur du nbre de pts de vie */
             waterBar.SetOxygen(currentOxygen); /* mise à jour du visuel */

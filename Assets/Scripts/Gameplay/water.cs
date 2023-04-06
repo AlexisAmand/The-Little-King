@@ -15,6 +15,9 @@ public class water : MonoBehaviour
     private WaitForSeconds loseInterval = new WaitForSeconds(3f);
     private WaitForSeconds winInterval = new WaitForSeconds(2f);
 
+    public AudioClip ploufSound;
+    public AudioClip bubbleSound;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && !isPlayerInTrapZone)
@@ -28,6 +31,9 @@ public class water : MonoBehaviour
             Debug.LogWarning("Le joueur a perdu " + healthpoint + "Points de vie");
             WaterHealth waterHealth = collision.transform.GetComponent<WaterHealth>();
             waterHealth.TakeDamage(healthpoint);
+
+            // on joue le son du plouf dans l'eau
+            AudioManager.Instance.PlayClipAt(ploufSound, transform.position);
 
             // Lancer la coroutine qui fait perdre des points de vie au joueur
             StartCoroutine("TakeDamageOverTime", collision.gameObject);
@@ -59,6 +65,10 @@ public class water : MonoBehaviour
             // Faire perdre des points de vie au joueur
             WaterHealth waterHealth = player.GetComponent<WaterHealth>();
             waterHealth.TakeDamage(healthpoint);
+            Debug.LogWarning("Le joueur a perdu " + WaterHealth.Instance.currentOxygen + " points d'oxygène");
+
+            // on joue le son des bubbles dans l'eau
+            AudioManager.Instance.PlayClipAt(bubbleSound, transform.position);
 
             // Attendre X secondes avant de faire perdre de nouveau des points de vie au joueur
             yield return loseInterval;
@@ -73,7 +83,7 @@ public class water : MonoBehaviour
 
             /* On rend 10 points d'oxygene */
             WaterHealth.Instance.HealPlayer(healthpoint);
-            Debug.LogWarning("Le joueur a gagné " + WaterHealth.Instance.currentOxygen + " Points d'oxygène");
+            Debug.LogWarning("Le joueur a gagné " + WaterHealth.Instance.currentOxygen + " points d'oxygène");
 
             if (WaterHealth.Instance.currentOxygen > WaterHealth.Instance.maxOxygen)
             {

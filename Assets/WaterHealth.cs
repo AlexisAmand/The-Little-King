@@ -40,8 +40,7 @@ public class WaterHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         /* Si le perso n'est pas invinsible, il subit des dégats */
-
-      
+ 
             // AudioManager.Instance.PlayClipAt(hitSound, transform.position);
 
             currentOxygen -= damage; /* nouvelle valeur du nbre de pts de vie */

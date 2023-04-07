@@ -38,9 +38,10 @@ Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez 
 - Pixel Studio 4.55
 - Photoshop 2023
 - Gimp 2.10.34
+
 - Unity 2020.3.46f1
 - Visual Studio 17.5.3
-- Visual Studio Code 1.77
+- Visual Studio Code 1.77.1
 
 ### Remerciements
 

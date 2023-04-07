@@ -18,6 +18,9 @@ public class water : MonoBehaviour
     public AudioClip ploufSound;
     public AudioClip bubbleSound;
 
+    // les bulles
+    public ParticleSystem bubblesParticleSystem;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player") && !isPlayerInTrapZone)
@@ -37,6 +40,9 @@ public class water : MonoBehaviour
 
             // Lancer la coroutine qui fait perdre des points de vie au joueur
             StartCoroutine("TakeDamageOverTime", collision.gameObject);
+
+            // on active les bulles
+            bubblesParticleSystem.gameObject.SetActive(true);
         }
     }
 
@@ -54,6 +60,9 @@ public class water : MonoBehaviour
 
         // Commence la coroutine pour restaurer l'oxygène du joueur
         StartCoroutine(RestoreOxygen());
+
+        // on désactive les bulles
+        bubblesParticleSystem.gameObject.SetActive(false);
     }
 
     /* cette coroutine a été écrite avec l'aide de ChatGPT 3.5 */
@@ -72,6 +81,7 @@ public class water : MonoBehaviour
 
             // Attendre X secondes avant de faire perdre de nouveau des points de vie au joueur
             yield return loseInterval;
+
         }
     }
 

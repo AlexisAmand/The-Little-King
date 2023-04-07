@@ -115,8 +115,7 @@ public class PlayerHealth : MonoBehaviour
 
         /* on restaure les mouvements du perso en bloquant le script PlayerMovement.cs */
         PlayerMovement.Instance.enabled = true;
-
-       
+ 
         PlayerMovement.Instance.animator.SetTrigger("Respawn");
 
         // on restaure les interactions avec les éléments de la scène

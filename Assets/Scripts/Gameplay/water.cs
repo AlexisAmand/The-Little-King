@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using UnityEngine;
 
-// créé par mes soins, mais modifié par ChatGPT 3.5
-// je ne suis pas sûr de l'intérêt de isPlayerInTrapZone
-
 public class water : MonoBehaviour
 {
 
@@ -15,6 +12,7 @@ public class water : MonoBehaviour
     private WaitForSeconds loseInterval = new WaitForSeconds(3f);
     private WaitForSeconds winInterval = new WaitForSeconds(2f);
 
+    // sons du joueur et l'eau
     public AudioClip ploufSound;
     public AudioClip bubbleSound;
 
@@ -30,7 +28,6 @@ public class water : MonoBehaviour
             rb.gravityScale = 0.05f;
 
             // le joueur perd des points de vie à chaque entrée dans l'eau
-
             Debug.LogWarning("Le joueur a perdu " + healthpoint + "Points de vie");
             WaterHealth waterHealth = collision.transform.GetComponent<WaterHealth>();
             waterHealth.TakeDamage(healthpoint);
@@ -81,7 +78,6 @@ public class water : MonoBehaviour
 
             // Attendre X secondes avant de faire perdre de nouveau des points de vie au joueur
             yield return loseInterval;
-
         }
     }
 
@@ -90,7 +86,6 @@ public class water : MonoBehaviour
     {
         while (WaterHealth.Instance.currentOxygen < WaterHealth.Instance.maxOxygen)
         {
-
             /* On rend 10 points d'oxygene */
             WaterHealth.Instance.HealPlayer(healthpoint);
             Debug.LogWarning("Le joueur a gagné " + WaterHealth.Instance.currentOxygen + " points d'oxygène");

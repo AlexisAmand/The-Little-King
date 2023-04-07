@@ -63,9 +63,11 @@
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\Gameplay\magicbox.cs" />
+    <Compile Include="Assets\Scripts\Player\WaterHealth.cs" />
     <Compile Include="Assets\Scripts\Gameplay\wall.cs" />
     <Compile Include="Assets\Scripts\Gameplay\pickUpKeys.cs" />
     <Compile Include="Assets\Scripts\Game\GameOverManager.cs" />
+    <Compile Include="Assets\Scripts\UI\WaterBar.cs" />
     <Compile Include="Assets\Scripts\Game\CurrentSceneManager.cs" />
     <Compile Include="Assets\Scripts\Dangers\SpikeDamage.cs" />
     <Compile Include="Assets\Scripts\Dangers\webdegat.cs" />
@@ -96,8 +98,6 @@
     <Compile Include="Assets\Scripts\Game\Parallax.cs" />
     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
-    <Compile Include="Assets\WaterHealth.cs" />
-    <Compile Include="Assets\WaterBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />

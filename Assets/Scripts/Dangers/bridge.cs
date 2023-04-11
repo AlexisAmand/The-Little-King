@@ -28,7 +28,7 @@ public class bridge : MonoBehaviour
 
             /* le nombre de dégat devient 0 */
             /* ça corrige un bug qui donnait des dégats quand le joueur arrive à l'emplacement du pont */
-
+            /* surement que je peux enlever le damage = 0 ?? */
             damage = 0;
 
             GetComponent<BoxCollider2D>().enabled = false;  

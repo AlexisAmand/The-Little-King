@@ -44,7 +44,6 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(60);
         }
-
     }
 
     public void HealPlayer (int amount)
@@ -57,7 +56,6 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth += amount;
         }
-
         healthBar.SetHealth(currentHealth);
     }
 
@@ -83,7 +81,6 @@ public class PlayerHealth : MonoBehaviour
             StartCoroutine(InvincibilityFlash()); /* coroutine : clignote car invinsible */
             StartCoroutine(HandleInvincibilityDelay()); /* coroutine : durée qu'il clignote car invinsible */
         }
-
     }
 
     public void Die()
@@ -107,12 +104,10 @@ public class PlayerHealth : MonoBehaviour
 
         // on appelle la méthode qui affiche le menu
         GameOverManager.Instance.OnPlayerDeath();
-
     }
 
     public void Respawn()
     {
-
         /* on restaure les mouvements du perso en bloquant le script PlayerMovement.cs */
         PlayerMovement.Instance.enabled = true;
  
@@ -123,7 +118,6 @@ public class PlayerHealth : MonoBehaviour
         PlayerMovement.Instance.playerCollider.enabled = true;
         currentHealth = maxHealth;
         healthBar.SetHealth(currentHealth);
-
     }
 
     public IEnumerator InvincibilityFlash()

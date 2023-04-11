@@ -1,5 +1,7 @@
 using UnityEngine;
 
+/* Ce script gére l'animation des pics à l'approche du player */
+
 public class pieges : MonoBehaviour
 
 {

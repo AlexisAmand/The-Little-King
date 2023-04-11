@@ -13,12 +13,6 @@ public class SpikeDamage : MonoBehaviour
             PlayerHealth playerHealth = collision.transform.GetComponent<PlayerHealth>();
             playerHealth.TakeDamage(damageIfPic);
         }
-
-
-
-
     }
 
-
 }
-

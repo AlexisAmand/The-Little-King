@@ -1,6 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+
+/* gére l'oxygène du player */
 
 public class WaterHealth : MonoBehaviour
 {

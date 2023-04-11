@@ -42,7 +42,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-
         /* Calcul du mvnt : Quel direction et quelle vitesse ? */
         horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.fixedDeltaTime;
         verticalMovement = Input.GetAxis("Vertical") * climbSpeed * Time.fixedDeltaTime;
@@ -59,12 +58,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", characterVelocity);
         /* envoie à l'animator si le perso est en train de monter ou descendre */
         animator.SetBool("isClimbing", isClimbing);
-
     }
 
     void FixedUpdate()
     {
-
         /* Création d'une zone entre les deux bornes */
         /* Si la zone touche qqch, isGrounded prend la valeur true */
         /* Si la zone touche rien, isGrounded prend la valeur false */
@@ -72,7 +69,6 @@ public class PlayerMovement : MonoBehaviour
 
         /* on bouge le perso ! */
         MovePlayer(horizontalMovement, verticalMovement);
-
     }
 
     /* Méthode qui bouge le perso */
@@ -109,7 +105,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip(float _velocity)
     {
-
         /* On tourne le perso dans le bon sens, selon si il va vers la droite ou vers la gauche */
         if (_velocity > 0.1f)
         {
@@ -118,7 +113,6 @@ public class PlayerMovement : MonoBehaviour
             {
             SpriteRenderer.flipX = true;
             }
-
     }
 
     private void OnDrawGizmos()

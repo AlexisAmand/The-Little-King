@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class bridge : MonoBehaviour
@@ -32,7 +30,9 @@ public class bridge : MonoBehaviour
             /* ça corrige un bug qui donnait des dégats quand le joueur arrive à l'emplacement du pont */
 
             damage = 0;
-            
+
+            GetComponent<BoxCollider2D>().enabled = false;  
+
         }
     }
 

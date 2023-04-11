@@ -1,6 +1,6 @@
-// using System.Collections;
-// using System.Collections.Generic;
 using UnityEngine;
+
+/* Ce script gére les dégâts des pics sur le  player */
 
 public class picdegats : MonoBehaviour
 

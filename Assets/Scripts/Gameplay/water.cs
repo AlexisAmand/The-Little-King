@@ -1,7 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using System.Drawing;
 using UnityEngine;
+
+/* Ce script gére l'entrée du player dans l'eau */
 
 public class water : MonoBehaviour
 {

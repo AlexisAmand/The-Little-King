@@ -1,6 +1,4 @@
-using UnityEngine.UI;
 using UnityEngine;
-using System.Runtime.InteropServices;
 
 public class door : MonoBehaviour
 {

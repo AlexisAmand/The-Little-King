@@ -6,11 +6,16 @@ using UnityEngine;
 public class water : MonoBehaviour
 {
 
+    // le joueur est-il dans la zone ?
     private bool isPlayerInTrapZone = false;
-    public int healthpoint = 10;
 
-    private WaitForSeconds loseInterval = new WaitForSeconds(3f);
-    private WaitForSeconds winInterval = new WaitForSeconds(2f);
+    // quantité d'oxygène gagné ou perdu
+    private int looseOxygen = 13;
+    private int recoveryOxygen = 20;
+
+    // durée entre deux pertes ou deux récupérations d'oxygène
+    private WaitForSeconds loseInterval = new WaitForSeconds(2f);
+    private WaitForSeconds winInterval = new WaitForSeconds(1f);
 
     // sons du joueur et l'eau
     public AudioClip ploufSound;
@@ -24,13 +29,11 @@ public class water : MonoBehaviour
         if (collision.CompareTag("Player") && !isPlayerInTrapZone)
         {
             isPlayerInTrapZone = true;
+
+            Debug.LogWarning("plouf !");
+
             Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
             rb.gravityScale = 0.05f;
-
-            // le joueur perd des points de vie à chaque entrée dans l'eau
-            Debug.LogWarning("Le joueur a perdu " + healthpoint + "Points de vie");
-            WaterHealth waterHealth = collision.transform.GetComponent<WaterHealth>();
-            waterHealth.TakeDamage(healthpoint);
 
             // on joue le son du plouf dans l'eau
             AudioManager.Instance.PlayClipAt(ploufSound, transform.position);
@@ -47,19 +50,22 @@ public class water : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.LogWarning("On sort de l'eau !");
+
             isPlayerInTrapZone = false;
             Rigidbody2D rb = collision.GetComponent<Rigidbody2D>();
             rb.gravityScale = 1f;
+
+            // Arrêter la coroutine qui fait perdre des points de vie au joueur
+            StopCoroutine("TakeDamageOverTime");
+
+            // Commence la coroutine pour restaurer l'oxygène du joueur
+            StartCoroutine(RestoreOxygen());
+
+            // on désactive les bulles
+            bubblesParticleSystem.gameObject.SetActive(false);
         }
 
-        // Arrêter la coroutine qui fait perdre des points de vie au joueur
-        StopCoroutine("TakeDamageOverTime");
-
-        // Commence la coroutine pour restaurer l'oxygène du joueur
-        StartCoroutine(RestoreOxygen());
-
-        // on désactive les bulles
-        bubblesParticleSystem.gameObject.SetActive(false);
     }
 
     /* cette coroutine a été écrite avec l'aide de ChatGPT 3.5 */
@@ -70,8 +76,8 @@ public class water : MonoBehaviour
         {
             // Faire perdre des points de vie au joueur
             WaterHealth waterHealth = player.GetComponent<WaterHealth>();
-            waterHealth.TakeDamage(healthpoint);
-            Debug.LogWarning("Le joueur a perdu " + WaterHealth.Instance.currentOxygen + " points d'oxygène");
+            waterHealth.TakeDamage(looseOxygen);
+            Debug.LogWarning("Le joueur a perdu " + looseOxygen + " points d'oxygène");
 
             // on joue le son des bubbles dans l'eau
             AudioManager.Instance.PlayClipAt(bubbleSound, transform.position);
@@ -87,8 +93,8 @@ public class water : MonoBehaviour
         while (WaterHealth.Instance.currentOxygen < WaterHealth.Instance.maxOxygen)
         {
             /* On rend 10 points d'oxygene */
-            WaterHealth.Instance.HealPlayer(healthpoint);
-            Debug.LogWarning("Le joueur a gagné " + WaterHealth.Instance.currentOxygen + " points d'oxygène");
+            WaterHealth.Instance.HealPlayer(recoveryOxygen);
+            Debug.LogWarning("Le joueur a gagné " + recoveryOxygen + " points d'oxygène");
 
             if (WaterHealth.Instance.currentOxygen > WaterHealth.Instance.maxOxygen)
             {

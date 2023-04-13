@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 940796515239923210}
   - component: {fileID: 940796515239923703}
   - component: {fileID: 940796515239923702}
+  - component: {fileID: 1578740044173766561}
   m_Layer: 0
   m_Name: Graphics
   m_TagString: Untagged
@@ -99,6 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c619878944a06c4793b01b4f5f20b19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound: {fileID: 0}
 --- !u!61 &940796515239923210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,6 +166,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1578740044173766561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940796515239923211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c619878944a06c4793b01b4f5f20b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 4abae1ef5a7f45645b949334ec3fd546, type: 3}
 --- !u!1 &940796515471578602
 GameObject:
   m_ObjectHideFlags: 0

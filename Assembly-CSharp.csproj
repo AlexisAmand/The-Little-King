@@ -59,11 +59,13 @@
     <Compile Include="Assets\Scripts\Gameplay\Chest.cs" />
     <Compile Include="Assets\Scripts\Game\Inventory.cs" />
     <Compile Include="Assets\Scripts\UI\Credits.cs" />
+    <Compile Include="Assets\pickUpArrows.cs" />
     <Compile Include="Assets\Scripts\Dangers\bridge.cs" />
     <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Player\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\Gameplay\magicbox.cs" />
     <Compile Include="Assets\Scripts\Player\WaterHealth.cs" />
+    <Compile Include="Assets\arrow.cs" />
     <Compile Include="Assets\Scripts\Gameplay\wall.cs" />
     <Compile Include="Assets\Scripts\Gameplay\pickUpKeys.cs" />
     <Compile Include="Assets\Scripts\Game\GameOverManager.cs" />
@@ -81,9 +83,11 @@
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\ladder.cs" />
     <Compile Include="Assets\Scripts\Dangers\DeathZone.cs" />
+    <Compile Include="Assets\arc.cs" />
     <Compile Include="Assets\Scripts\Dangers\EnnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Gameplay\MeteoRandom.cs" />
     <Compile Include="Assets\Scripts\Game\CameraFollow.cs" />
+    <Compile Include="Assets\ennemyShoot.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Game\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Dangers\pinguKill.cs" />
@@ -101,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />
+    <None Include="Assets\imports\Arrows\Bow and Arrow Set\License.txt" />
     <None Include="Assets\imports\blob-1.0\bleu\README.txt" />
     <None Include="Assets\imports\kf_controller_prompts_r6\readme &amp; license.txt" />
     <None Include="Assets\imports\Flying_Key\readme.txt" />

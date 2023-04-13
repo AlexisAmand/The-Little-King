@@ -12,6 +12,9 @@ public class Inventory : MonoBehaviour
     public int keysCount;
     public Text keysCountText;
 
+    public int arrowsCount;
+    public Text arrowsCountText;
+
     public static Inventory Instance;
 
     /* La fonction Awake est lue avant tout le monde, avant même la fonction start */
@@ -36,7 +39,7 @@ public class Inventory : MonoBehaviour
         coinsCountText.text = coinsCount.ToString();
     }
 
-    /* suppression d'une clé de l'inventaire */
+    /* suppression d'une piece de l'inventaire */
 
     public void RemoveCoins(int count)
     {
@@ -58,6 +61,22 @@ public class Inventory : MonoBehaviour
     {
         keysCount -= count;
         keysCountText.text = keysCount.ToString();
+    }
+
+    /* ajout d'une flèche dans l'inventaire */
+
+    public void AddArrows(int count)
+    {
+        arrowsCount += count;
+        arrowsCountText.text = arrowsCount.ToString();
+    }
+
+    /* suppression d'une flèche de l'inventaire */
+
+    public void RemoveArrows(int count)
+    {
+        arrowsCount -= count;
+        arrowsCountText.text = arrowsCount.ToString();
     }
 
 }

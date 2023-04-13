@@ -10,6 +10,7 @@ TagManager:
   - MovingPF
   - Welcome
   - DoorUI
+  - Arrow
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,8 @@ public class CurrentSceneManager : MonoBehaviour
     // public bool isPlayerPresentByDefault = false;
     public int coinsPickedUpInThisSceneCount;
     public int keysPickedUpInThisSceneCount;
+    public int arrowsPickedUpInThisSceneCount;
+
 
     /* pour stocker la position du point de réaparition */
     public Vector3 respawnPoint;

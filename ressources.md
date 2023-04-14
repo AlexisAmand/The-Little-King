@@ -1,52 +1,36 @@
 
 # Ressources 
 
-Liste des ressources que j'ai utilisées dans mes divers projets (hors créations personnelles).
+Liste des ressources que j'ai utilisées pour ce projet.
 
-Tileset "A platformer in the forest"
-https://opengameart.org/content/a-platformer-in-the-forest
+Tilesets
+- https://opengameart.org/content/a-platformer-in-the-forest
+- https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/
+- https://opengameart.org/content/platformer-art-deluxe
+- https://ipixl.itch.io/pixel-art-16x16-nature-tiles
 
-Tileset "ambiance marais" :  
-https://craftpix.net/freebies/free-swamp-game-tileset-pixel-art/
+Sprites :  
+- https://opengameart.org/content/animated-pixel-torch
+- https://opengameart.org/content/bat-sprite
+- https://opengameart.org/content/potion-bottles-1
+- https://opengameart.org/content/2d-spider-webs
+- https://legends-games.itch.io/pixel-penguin-32x32-asset-pack
+- https://opengameart.org/content/bow-set
+- https://opengameart.org/content/powerup-bubble
 
-Tileset "Platformer art deluxe" :  
-https://opengameart.org/content/platformer-art-deluxe
+Backgrounds :  
+- https://assetstore.unity.com/packages/2d/environments/ultimate-2d-backgrounds-pack-188495
+- https://opengameart.org/content/seamless-hd-landscape-in-parts
 
-Sprite sheet pour la torche :  
-https://opengameart.org/content/animated-pixel-torch
+Fonts :
+- https://www.dafont.com/pixelated.font
 
-Sprite sheet pour la chauve-souris :  
-https://opengameart.org/content/bat-sprite
-
-Potion bottles :
-https://opengameart.org/content/potion-bottles-1
-
-Ultimate 2D Backgrounds Pack :  
-https://assetstore.unity.com/packages/2d/environments/ultimate-2d-backgrounds-pack-188495
-
-Background des niveaux :  
-https://opengameart.org/content/seamless-hd-landscape-in-parts
-
-Toiles d'araignées :  
-https://opengameart.org/content/2d-spider-webs
-
-Police pixelated :
-https://www.dafont.com/pixelated.font
-
-8-Bit Sound Effects Library :
-https://opengameart.org/content/8-bit-sound-effects-library
-
-Healthbar by Brackeys :
-https://www.youtube.com/c/Brackeys
-
-Divers effets 8 bits :
-https://opengameart.org/content/8bit-sfx
-
-Sprite du Pingouin :
-https://legends-games.itch.io/pixel-penguin-32x32-asset-pack
-
-Chest Creak (son ouverture d'un coffre) :
-https://opengameart.org/content/open-chest
-
-VG Death Sound
-https://opengameart.org/content/8bit-death-whirl
+Sounds  effects et musics
+- https://opengameart.org/content/8-bit-sound-effects-library
+- https://opengameart.org/content/8bit-sfx
+- https://opengameart.org/content/8bit-death-whirl
+- https://opengameart.org/content/open-chest
+- https://lasonotheque.org/detail-1529-plouf-petit-1.html
+- https://pixabay.com/sound-effects/
+- https://pixabay.com/sound-effects/search/water/?manual_search=1&order=None
+- https://opengameart.org/content/12-player-movement-sfx

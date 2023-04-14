@@ -10,11 +10,23 @@ public class Chest : MonoBehaviour
     private bool isInRange;
     // va contenir l'animation que l'on va jouer 
     public Animator animator;
-    // récompense
-    public int coinsToAdd;
+   
     // sons à jouer au moment de la récompense
     public AudioClip soundToPlay1;
     public AudioClip soundToPlay2;
+
+    // récompenses
+    // j'ai ajouté un peu d'aléatoire
+    private int coinsToAdd;
+    private int arrowsToAdd;
+
+    private void Start()
+    {
+        /* génération d'un nombre entre 5 et 20 pour une quantité de pièces aléatoire */
+        coinsToAdd = Random.Range(5, 21);
+        /* génération d'un nombre entre 2 et 6 pour une quantité de fleches aléatoire */
+        arrowsToAdd = Random.Range(2, 7);
+    }
 
     void Awake()
     {
@@ -38,6 +50,8 @@ public class Chest : MonoBehaviour
         animator.SetTrigger("OpenChess");
         // On donne la récompense au joueur
         Inventory.Instance.AddCoins(coinsToAdd);
+        Inventory.Instance.AddArrows(arrowsToAdd);
+
         // On joue les sons à la position où le joueur est, avec une petite pause entre les deux
         AudioManager.Instance.PlayClipAt(soundToPlay2, transform.position);
         StartCoroutine(ExampleCoroutine());

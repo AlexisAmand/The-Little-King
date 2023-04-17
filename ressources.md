@@ -25,7 +25,7 @@ Backgrounds :
 Fonts :
 - https://www.dafont.com/pixelated.font
 
-Sounds  effects et musics
+Sounds  effects et musics :
 - https://opengameart.org/content/8-bit-sound-effects-library
 - https://opengameart.org/content/8bit-sfx
 - https://opengameart.org/content/8bit-death-whirl

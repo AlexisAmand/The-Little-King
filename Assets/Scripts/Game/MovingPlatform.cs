@@ -1,5 +1,3 @@
-// using System.Collections;
-// using System.Collections.Generic;
 using UnityEngine;
 
 /* Ce script est en partie adapté de celui qui s'occupe du déplacemennt des ennemis */

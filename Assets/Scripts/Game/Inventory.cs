@@ -36,7 +36,7 @@ public class Inventory : MonoBehaviour
     public void AddCoins(int count)
     {
         coinsCount += count;
-        coinsCountText.text = coinsCount.ToString();
+        UpdateTextUI();
     }
 
     /* suppression d'une piece de l'inventaire */
@@ -44,7 +44,7 @@ public class Inventory : MonoBehaviour
     public void RemoveCoins(int count)
     {
         coinsCount -= count;
-        coinsCountText.text = coinsCount.ToString();
+        UpdateTextUI();
     }
 
     /* ajout d'une clé dans l'inventaire */
@@ -77,6 +77,11 @@ public class Inventory : MonoBehaviour
     {
         arrowsCount -= count;
         arrowsCountText.text = arrowsCount.ToString();
+    }
+
+    public void UpdateTextUI()
+    {
+        coinsCountText.text = coinsCount.ToString();
     }
 
 }

@@ -8,7 +8,7 @@ public class LoadSpecificScene : MonoBehaviour
 {
 
     public string sceneName;
-    public Animator fadeSystem;
+    private Animator fadeSystem;
 
     /* Gestion de l'ouverture de la porte */
     public Sprite sprite1; // porte fermée
@@ -68,8 +68,10 @@ public class LoadSpecificScene : MonoBehaviour
         /* On joue le son du changement de scène */
         // AudioManager.Instance.PlayClipAt(levelEnd, transform.position);
 
-        fadeSystem.SetTrigger("FadeIn");
+        /* sauvegarde des données au passage de la porte de changement du niveau */
+        LoadAndSaveData.Instance.SaveData();
 
+        fadeSystem.SetTrigger("FadeIn");
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
     }

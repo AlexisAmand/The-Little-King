@@ -35,13 +35,13 @@ Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez 
 
 ### Outils utilisés
 
-- Pixel Studio 4.55
+- Pixel Studio 4.59
 - Photoshop 2023
 - Gimp 2.10.34
 
 - Unity 2020.3.46f1
 - Visual Studio 17.5.4
-- Visual Studio Code 1.77.2
+- Visual Studio Code 1.77.3
 
 ### Remerciements
 

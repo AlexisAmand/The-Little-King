@@ -5065,6 +5065,7 @@ MonoBehaviour:
   arrowSpawnPoint: {fileID: 13672021}
   arrowSpeed: 10
   fireRate: 0.5
+  sound: {fileID: 8300000, guid: 4cb2310403911034c8bb20fbfceb5f1a, type: 3}
 --- !u!1 &6920768104410045305
 GameObject:
   m_ObjectHideFlags: 0

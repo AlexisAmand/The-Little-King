@@ -7,9 +7,11 @@ public class CurrentSceneManager : MonoBehaviour
     public int keysPickedUpInThisSceneCount;
     public int arrowsPickedUpInThisSceneCount;
 
-
     /* pour stocker la position du point de réaparition */
     public Vector3 respawnPoint;
+
+    /* niveau à débloquer */
+    public int levelToUnlock;
 
     public static CurrentSceneManager Instance;
 

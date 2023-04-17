@@ -42,6 +42,14 @@ public class LoadAndSaveData : MonoBehaviour
 
         /* sauvegarde du nombre de points de vie en passant la valeur */
         PlayerPrefs.SetInt("playerHealth", PlayerHealth.Instance.currentHealth);
+
+        /* sauvegarde du niveau atteint si le niveau atteint est un niveau qui n'a pas encore été débloqué */
+
+        if(CurrentSceneManager.Instance.levelToUnlock > PlayerPrefs.GetInt("levelReached", 1))
+        {
+            PlayerPrefs.SetInt("levelReached", CurrentSceneManager.Instance.levelToUnlock);
+        }
+
     }
 
 }

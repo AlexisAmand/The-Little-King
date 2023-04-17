@@ -51,13 +51,15 @@ public class LoadSpecificScene : MonoBehaviour
     private void openDoor()
     {
         spriteRenderer.sprite = sprite2; /* On remplace le sprite */
-        DoorClosed = true; /* La porte est maintenant ouverte */
+        DoorClosed = false; /* La porte est maintenant ouverte */
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {     
         if ((collision.CompareTag("Player")) && (DoorClosed == false))
         {
+            /* la porte est ouverte ! Le joueur peut passer */
+            Debug.Log("C'est ok pour la porte");
             StartCoroutine(loadNextScene());
         }      
     }

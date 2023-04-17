@@ -75,9 +75,10 @@
     <Compile Include="Assets\Scripts\Dangers\webdegat.cs" />
     <Compile Include="Assets\Scripts\Game\LoadSpecificScene.cs" />
     <Compile Include="Assets\Scripts\Gameplay\HealPowerUp.cs" />
-    <Compile Include="Assets\CharacterBehaviour.cs" />
+    <Compile Include="Assets\Scripts\arc\CharacterBehaviour.cs" />
     <Compile Include="Assets\Scripts\Gameplay\star.cs" />
     <Compile Include="Assets\Scripts\Dangers\Feu.cs" />
+    <Compile Include="Assets\Scripts\Game\LoadAndSaveData.cs" />
     <Compile Include="Assets\Scripts\Dangers\picdegats.cs" />
     <Compile Include="Assets\Scripts\Gameplay\water.cs" />
     <Compile Include="Assets\Scripts\UI\LevelSelector.cs" />
@@ -103,7 +104,6 @@
     <Compile Include="Assets\Scripts\Game\Parallax.cs" />
     <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Dangers\pieges.cs" />
-    <Compile Include="Assets\LoadAndSaveData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />

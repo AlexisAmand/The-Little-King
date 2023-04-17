@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CurrentSceneManager : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class CurrentSceneManager : MonoBehaviour
 
     /* niveau à débloquer */
     public int levelToUnlock;
+
+    /* nom du niveau en cours */
+    public Text levelTitle;
 
     public static CurrentSceneManager Instance;
 
@@ -29,5 +33,9 @@ public class CurrentSceneManager : MonoBehaviour
 
         respawnPoint = GameObject.FindGameObjectWithTag("Player").transform.position;
 
+        int currentlevel = levelToUnlock - 1;
+        levelTitle.text = "Level   #" + currentlevel.ToString();
+
     }
+
 }

@@ -26,12 +26,12 @@ public class LoadSpecificScene : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>(); // Accès au SpriteRenderer de l'objet
 
-        /* Au chargement du niveau, on regarde si le nombre de piece est ok 
+        /* Au chargement du niveau, on regarde si le nombre de piece est ok */
         if (Inventory.Instance.coinsCount >= CoinsGoal) 
         {
             openDoor();
         }
-        */
+        
     }
 
     void Update()

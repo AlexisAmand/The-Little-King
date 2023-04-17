@@ -43,5 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4530e5ee0252bdb4689125065d866638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isPlayerPresentByDefault: 0
   coinsPickedUpInThisSceneCount: 0
+  keysPickedUpInThisSceneCount: 0
+  arrowsPickedUpInThisSceneCount: 0
+  respawnPoint: {x: 0, y: 0, z: 0}
+  levelToUnlock: 2
+  levelTitle: {fileID: 0}

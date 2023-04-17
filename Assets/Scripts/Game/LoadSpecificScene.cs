@@ -3,8 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class LoadSpecificScene : MonoBehaviour
-    
+public class LoadSpecificScene : MonoBehaviour  
 {
 
     public string sceneName;
@@ -25,27 +24,23 @@ public class LoadSpecificScene : MonoBehaviour
 
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Accès au SpriteRenderer de l'objet      
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Accès au SpriteRenderer de l'objet
+
+        /* Au chargement du niveau, on regarde si le nombre de piece est ok 
+        if (Inventory.Instance.coinsCount >= CoinsGoal) 
+        {
+            openDoor();
+        }
+        */
     }
 
     void Update()
     {
-
-        if (Inventory.Instance.coinsCount == CoinsGoal) /* Si toutes les pieces sont ramassées */
+        /* Si toutes les pieces sont ramassées en cour de partie */
+        if (Inventory.Instance.coinsCount == CoinsGoal) 
         {
-            ChangeSprite2(); // On appelle la méthode qui change le Sprite
+            openDoor();
         }
-
-    }
-
-    void ChangeSprite2()
-    {
-        /* On joue le son qui indique que la porte s'ouvre */
-        // AudioManager.Instance.PlayClipAt(doorOpen, transform.position);
-
-        /* On change le sprite pour la version "porte ouverte */
-        spriteRenderer.sprite = sprite2; /* On remplace le sprite */
-        DoorClosed = false; /* La porte est maintenant ouverte */
     }
 
     void Awake()
@@ -53,14 +48,18 @@ public class LoadSpecificScene : MonoBehaviour
         fadeSystem = GameObject.FindGameObjectWithTag("FadeSystem").GetComponent<Animator>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void openDoor()
     {
-        
+        spriteRenderer.sprite = sprite2; /* On remplace le sprite */
+        DoorClosed = true; /* La porte est maintenant ouverte */
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {     
         if ((collision.CompareTag("Player")) && (DoorClosed == false))
         {
             StartCoroutine(loadNextScene());
-        }
-        
+        }      
     }
 
     public IEnumerator loadNextScene()

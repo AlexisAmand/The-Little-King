@@ -35,7 +35,6 @@ public class PoursuivreJoueur : MonoBehaviour
                 // Si la cible est à gauche du personnage
                 GetComponent<SpriteRenderer>().flipX = true; // Le sprite regarde vers la gauche
             }
-
         }
     }
 

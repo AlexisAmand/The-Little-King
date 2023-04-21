@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\UI\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player\ladder.cs" />
+    <Compile Include="Assets\elevator.cs" />
     <Compile Include="Assets\Scripts\Dangers\DeathZone.cs" />
     <Compile Include="Assets\Scripts\arc\arc.cs" />
     <Compile Include="Assets\Scripts\Dangers\EnnemyPatrol.cs" />
@@ -107,11 +108,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\imports\blob-1.0\bleu\LICENSE.txt" />
+    <None Include="Assets\imports\Rocks\craftpix\rocks assets\readme.txt" />
+    <None Include="Assets\imports\Trees\craftpix\bush assets\readme.txt" />
     <None Include="Assets\imports\Arrows\Bow and Arrow Set\License.txt" />
+    <None Include="Assets\imports\Trees\craftpix\tree assets\License.txt" />
+    <None Include="Assets\imports\Trees\craftpix\bush assets\License.txt" />
     <None Include="Assets\imports\blob-1.0\bleu\README.txt" />
     <None Include="Assets\imports\kf_controller_prompts_r6\readme &amp; license.txt" />
+    <None Include="Assets\imports\Trees\craftpix\tree assets\readme.txt" />
     <None Include="Assets\imports\Flying_Key\readme.txt" />
     <None Include="Assets\imports\blob-1.0\vert\README.txt" />
+    <None Include="Assets\imports\Rocks\craftpix\rocks assets\License.txt" />
     <None Include="Assets\imports\blob-1.0\vert\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>

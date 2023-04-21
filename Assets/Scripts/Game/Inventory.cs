@@ -60,8 +60,7 @@ public class Inventory : MonoBehaviour
     public void RemoveKeys(int count)
     {
         keysCount -= count;
-        UpdateTextUI();
-        
+        UpdateTextUI();       
     }
 
     /* ajout d'une flèche dans l'inventaire */
@@ -69,8 +68,7 @@ public class Inventory : MonoBehaviour
     public void AddArrows(int count)
     {
         arrowsCount += count;
-        UpdateTextUI();
-        
+        UpdateTextUI();      
     }
 
     /* suppression d'une flèche de l'inventaire */
@@ -84,9 +82,7 @@ public class Inventory : MonoBehaviour
     public void UpdateTextUI()
     {
         coinsCountText.text = coinsCount.ToString();
-
         keysCountText.text = keysCount.ToString();
-
         arrowsCountText.text = arrowsCount.ToString();
     }
 

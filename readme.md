@@ -29,10 +29,11 @@ Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont parti
 
 ### Téléchargement
 
-Normalement, c'est par là, mais je ne pense jamais en envoyer les nouvelles builds : 
-https://alexisamand.itch.io/the-little-king. Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez tout son contenu si vous avez envie de tester.
+Si vous avez envie de tester, normalement, c'est par là : https://alexisamand.itch.io/the-little-king
 
-### Outils utilisés
+Mais comme je ne pense jamais en envoyer les nouvelles builds, regardez plutôt dans le dossier "Build" de ce dépôt, récupérez tout son contenu , et executez ensuite le fichier qui s'appelle "Game 2D.exe".
+
+### Logiciels utilisés
 
 - Pixel Studio 4.59
 - Photoshop 2023
@@ -46,6 +47,9 @@ https://alexisamand.itch.io/the-little-king. Du coup, regardez plutôt dans le d
 
 - Zef pour ses tutos : https://www.youtube.com/@TUTOUNITYFR
 - Brackeys pour ses tutos : https://www.youtube.com/@Brackeys
+
+### Crédits
+
 - [Liste des ressources utilisées](https://github.com/AlexisAmand/The-Little-King/blob/master/ressources.md)
 - [Liste des musiques utilisées](https://github.com/AlexisAmand/The-Little-King/blob/master/musics.md)
 

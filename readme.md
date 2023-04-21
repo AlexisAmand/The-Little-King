@@ -20,6 +20,7 @@ Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont parti
 
 - E : interagir (échelles, coffres, etc.)
 - H : s'infliger des dégâts (60 poins de vie sur les 100 disponibles)
+- T : Tirer une flèche
 - espace : sauter
 - flèche gauche : aller vers la gauche
 - flèche droite : aller vers la droite
@@ -29,16 +30,14 @@ Dans l'état actuellement du développement, seuls les niveaux 1 et 2 sont parti
 ### Téléchargement
 
 Normalement, c'est par là, mais je ne pense jamais en envoyer les nouvelles builds : 
-https://alexisamand.itch.io/the-little-king
-
-Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez tout son contenu si vous avez envie de tester.
+https://alexisamand.itch.io/the-little-king. Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez tout son contenu si vous avez envie de tester.
 
 ### Outils utilisés
 
 - Pixel Studio 4.59
 - Photoshop 2023
 - Gimp 2.10.34
-
+- Photoflare 1.6.12 Version Community 
 - Unity 2020.3.46f1
 - Visual Studio 17.5.4
 - Visual Studio Code 1.77.3
@@ -47,3 +46,6 @@ Du coup, regardez plutôt dans le dossier "Build" de ce dépôt, et récupérez 
 
 - Zef pour ses tutos : https://www.youtube.com/@TUTOUNITYFR
 - Brackeys pour ses tutos : https://www.youtube.com/@Brackeys
+- [Liste des ressources utilisées](https://github.com/AlexisAmand/The-Little-King/blob/master/ressources.md)
+- [Liste des musiques utilisées](https://github.com/AlexisAmand/The-Little-King/blob/master/musics.md)
+
